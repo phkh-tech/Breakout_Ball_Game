@@ -63,7 +63,10 @@ void APawnBase::NewBall()
 		return;
 	}
 
-	if (!Arrow) return;
+	if (!Arrow)
+	{
+		return;
+	}
 	
 	FTransform SpawnTransform = Arrow->GetComponentTransform();
 

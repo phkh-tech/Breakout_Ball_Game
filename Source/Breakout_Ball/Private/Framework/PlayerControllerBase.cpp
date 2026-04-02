@@ -25,8 +25,6 @@ void APlayerControllerBase::BeginPlay()
 		{
 			Subsystem->AddMappingContext(FireMappingContext, 0);
 		}
-       
-		UE_LOG(LogTemp, Warning, TEXT("Input Contexts Re-Applied after Reset."));
 	}
 }
 
